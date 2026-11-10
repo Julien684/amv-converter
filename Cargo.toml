@@ -1,0 +1,12 @@
+[package]
+name = "amv-converter"
+version = "0.2.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+qtrs = "0.5"
+cxx = "1.0"
+
+[profile.release]
+opt-level = 2

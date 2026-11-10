@@ -1,0 +1,4 @@
+/target/
+__pycache__/
+*.eopkg
+amv_converter.py

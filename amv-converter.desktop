@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=AMV Converter
+Name[fr]=AMV Converter
+Comment=Convert videos to AMV format for small MP3/video players
+Comment[fr]=Convertisseur de vidéos en format AMV pour petits lecteurs MP3/vidéo
+Exec=amv-converter
+Icon=amv-converter
+Categories=AudioVideo;Video;
+Keywords=amv;video;convert;ffmpeg;
