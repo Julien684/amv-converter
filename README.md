@@ -16,7 +16,7 @@ sudo eopkg install -y amv-converter
 ### Via le paquet direct
 
 ```bash
-sudo eopkg install -y https://github.com/Julien684/amv-converter/releases/download/v0.2.0/amv-converter-0.2.0-3-1-x86_64.eopkg
+sudo eopkg install -y https://github.com/Julien684/amv-converter/releases/download/v0.2.0/amv-converter-0.2.0-4-1-x86_64.eopkg
 ```
 
 ## Prérequis
