@@ -30,12 +30,12 @@ OUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else SRC_DIR
 
 PACKAGE_NAME   = "amv-converter"
 VERSION        = "0.2.0"
-RELEASE        = 3
+RELEASE        = 4
 DIST_RELEASE   = 1
 ARCH           = "x86_64"
 DIST_NAME      = "Solus"
 BUILD_HOST     = "solus-local"
-HOME_PAGE      = "https://depoa.julien68.fr/Linuxon/amv-converter"
+HOME_PAGE      = "https://github.com/Julien684/amv-converter"
 PACKAGER_NAME  = "Julien"
 PACKAGER_EMAIL = "julien_solus@use.startmail.com"
 PART_OF        = "audio.video"
@@ -60,6 +60,7 @@ FILE_LIST = [
      "assets/screenshot.png", 0o644),
     ("usr/share/licenses/amv-converter/LICENSE",
      "LICENSE", 0o644),
+    ("usr/share/metainfo/fr.julien68.AmvConverter.metainfo.xml", "fr.julien68.AmvConverter.metainfo.xml", 0o644),
 ]
 
 RUNTIME_DEPS = []
